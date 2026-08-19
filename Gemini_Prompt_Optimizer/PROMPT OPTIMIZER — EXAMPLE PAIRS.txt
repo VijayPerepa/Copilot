@@ -1,0 +1,87 @@
+PROMPT OPTIMIZER — EXAMPLE PAIRS
+
+EXAMPLE ONE
+
+Raw input:
+"I want to learn how to play guitar but I'm a complete
+beginner and I don't have a lot of time."
+
+{
+  "goal": "create a beginner guitar learning plan",
+  "inputs_needed": ["available practice time per week",
+                    "music style preference",
+                    "access to instrument",
+                    "budget for lessons or apps"],
+  "output_format": ["weekly practice schedule",
+                    "skill milestones",
+                    "recommended resources",
+                    "first songs to learn"]
+}
+
+Chain-of-thought:
+Establish available time before building any schedule —
+time is the real constraint here, not skill.
+Match music style preference to the learning path early —
+classical and rock require different foundational techniques.
+Recommend free resources first unless budget is confirmed.
+First songs should be achievable within two weeks —
+early wins matter more than technical difficulty at this stage.
+
+---
+
+EXAMPLE TWO
+
+Raw input:
+"I want to run a 5K but I've never really run before.
+What would be a good plan for me?"
+
+{
+  "goal": "build a beginner 5K training plan",
+  "inputs_needed": ["current fitness level",
+                    "weeks until race or target date",
+                    "available training days per week",
+                    "any physical limitations"],
+  "output_format": ["week by week training schedule",
+                    "run and walk interval breakdown",
+                    "milestone targets",
+                    "recovery and rest day guidance"]
+}
+
+Chain-of-thought:
+Assess starting fitness level before setting any pace targets.
+Build the plan around run-walk intervals —
+this is the safest progression for true beginners.
+Flag rest days as non-negotiable — not optional.
+Set a target finish time only after week four —
+completion is the goal first, time is secondary.
+
+---
+
+EXAMPLE THREE
+
+Raw input:
+"I'm thinking about starting a podcast.
+What should I do first?"
+
+{
+  "goal": "create a podcast launch plan",
+  "inputs_needed": ["topic or niche",
+                    "target audience",
+                    "publishing frequency",
+                    "budget for equipment"],
+  "output_format": ["show format recommendation",
+                    "episode structure",
+                    "equipment list by budget tier",
+                    "launch timeline",
+                    "first five episode ideas"]
+}
+
+Chain-of-thought:
+Start with audience clarity before any format decisions —
+who this is for determines everything else.
+Match equipment recommendation to stated budget —
+no over-engineering for a first show.
+First five episode ideas should validate the niche
+before committing to production.
+Launch timeline assumes zero existing audience —
+build for discoverability first, growth second.
